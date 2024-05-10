@@ -59,7 +59,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-05-10 16:33:23',
+  postUpdate: '2024-05-10 16:41:03',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -208,7 +208,7 @@ if (true) {
         技术
       </a>
     </div>
-    </div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2024/05/10/Virtualization/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">技术</div><span class="newPost">最新</span><a class="unvisited-post" href="/2024/05/10/Virtualization/" title="虚拟化">未读</a></div><a class="article-title" href="/2024/05/10/Virtualization/" title="虚拟化">虚拟化</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-10T07:29:13.000Z" title="发表于 2024-05-10 15:29:13" time="2024-05-10 15:29:13">2024-05-10</time><time class="time_hidden" datetime="2024-05-10T08:33:09.355Z" title="更新于 2024-05-10 16:33:09" time="2024-05-10 16:33:09">2024-05-10</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>前端</span></a></span></div><div class="content">前言虚拟化表格是一种前端技术，专门设计用于高效处理和展示大量数据的表格组件。在传统的Web界面中，一次性渲染数千甚至数万行数据到表格中会导致浏览器性能下降，页面响应缓慢，甚至可能造成浏览器崩溃。我们先来看一次性加载 2000 条数据。（基于主流的pc性能标准，使用chrome最新版）
+    </div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2024/05/10/Virtualization/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">技术</div><span class="newPost">最新</span><a class="unvisited-post" href="/2024/05/10/Virtualization/" title="虚拟化">未读</a></div><a class="article-title" href="/2024/05/10/Virtualization/" title="虚拟化">虚拟化</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-10T07:29:13.000Z" title="发表于 2024-05-10 15:29:13" time="2024-05-10 15:29:13">2024-05-10</time><time class="time_hidden" datetime="2024-05-10T08:40:51.842Z" title="更新于 2024-05-10 16:40:51" time="2024-05-10 16:40:51">2024-05-10</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>前端</span></a></span></div><div class="content">前言虚拟化表格是一种前端技术，专门设计用于高效处理和展示大量数据的表格组件。在传统的Web界面中，一次性渲染数千甚至数万行数据到表格中会导致浏览器性能下降，页面响应缓慢，甚至可能造成浏览器崩溃。我们先来看一次性加载 2000 条数据。（基于主流的pc性能标准，使用chrome最新版）
 仅仅是首屏加载下，渲染时长就长达 2.5 秒。在鼠标滚轮滚动四下，触发多次样式计算后，整个ui即陷入了严重的迟滞。
 
 这严重影响了用户体验，甚至会导致chrome崩溃。虽然我也不知道哪个傻叉需求要天天前端显示上千条数据。在进行虚拟化处理后，首屏加载时间大幅缩短。
